@@ -24,10 +24,14 @@ class SetupRoutes {
       Routes.SPLASH: (context) => SplashScreen(),
 
 
-      Routes.MAIN_PAGE: (context) => RoutePage(),
-      Routes.MAINPAGE: (context) => MainPage(),
+      //auth
       Routes.REGISTERPAGE: (context) => RegisterPage(),
       Routes.LOGINPAGE: (context) => LoginPage(),
+      
+      
+      //other
+      Routes.MAIN_PAGE: (context) => RoutePage(),
+      Routes.MAINPAGE: (context) => MainPage(),
       Routes.PRIFILEPAGE: (context) => ProfilePage(),
       Routes.ADDTASKPAGE: (context) => AddTask(),
       Routes.ADDCLIENT: (context) => AddClient(),
